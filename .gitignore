@@ -1,0 +1,19 @@
+# Python virtual environment
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Node.js dependencies
+walletiq_frontend/node_modules/
+
+# Database or temporary files
+db/*.sqlite
+db/*.log
+
+# Backend Python caches
+walletiq_backend/__pycache__/
+walletiq_backend/*.pyc
+
+# Logs
+*.log

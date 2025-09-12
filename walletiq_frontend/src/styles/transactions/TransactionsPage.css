@@ -1,0 +1,25 @@
+.transactions-page {
+  padding: 20px;
+  background-color: #f4f6f8;
+}
+
+.transactions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-transaction-button {
+  padding: 10px 14px;
+  background-color: #4c4cff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-transaction-button:hover {
+  background-color: #3a3aed;
+}

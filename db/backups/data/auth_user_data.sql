@@ -1,0 +1,3 @@
+INSERT INTO public.auth_user ("password",last_login,is_superuser,username,first_name,last_name,email,is_staff,is_active,date_joined) VALUES
+	 ('pbkdf2_sha256$1000000$4wur6x97AVhUI8gBjQaZXY$l78z4ny72RpPrCWogimXSzE+qgyOFLobsDf7J7Ma4Z8=','2025-07-30 01:37:12.934357+05:30',false,'kartikeyarankawat11','Kartikeya','Rankawat','kartikeyarankawat11@gmail.com',false,true,'2025-07-27 16:22:51.248762+05:30'),
+	 ('pbkdf2_sha256$1000000$0cptJdOyZujabGHqOxKugg$n+SB2LYIHRUswapDmHtQiZpHvQ8wgrDTQCWvEVjrnBg=','2025-07-30 15:09:37.191903+05:30',false,'swapnilrankawat63','Swapnil','Rankawat','swapnilrankawat63@gmail.com',false,true,'2025-07-26 00:09:28.569358+05:30');

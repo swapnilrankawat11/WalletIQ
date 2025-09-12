@@ -1,0 +1,19 @@
+.account-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.account-form input,
+.account-form select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.account-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

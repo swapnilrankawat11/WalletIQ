@@ -1,0 +1,124 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 25px 30px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.form-errors,
+.form-success-submit {
+  position: relative;
+  padding: 12px 40px 12px 12px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  border: 1px solid;
+  word-break: break-word;
+}
+
+.form-errors {
+  background-color: #ffe6e6;
+  color: #d32f2f;
+  border-color: #f5c2c2;
+}
+
+.form-success-submit {
+  background-color: #e6ffed;
+  color: #2e7d32;
+  border-color: #a5d6a7;
+}
+
+.save-button {
+  background-color: #4c4cff;
+  color: white;
+  min-width: 65px;
+}
+
+.close-button {
+  background-color: #ff4c4c;
+  color: white;
+}
+
+.input-error {
+  border: 2px solid #f44336 !important;
+  background-color: #fffafa;
+}
+
+input.input-error,
+select.input-error {
+  border-color: #f44336;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.save-button:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.close-errors-btn {
+  background: transparent;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #555;
+  line-height: 1;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.close-errors-btn:hover,
+.close-errors-btn:focus {
+  color: #d32f2f;
+  outline: none;
+}
+
+.close-alert-btn {
+  background: transparent;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #555;
+  line-height: 1;
+  position: absolute;
+  top: -0.1rem;
+  right: 0px;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.close-alert-btn:hover,
+.close-alert-btn:focus {
+  color: #d32f2f;
+  outline: none;
+}

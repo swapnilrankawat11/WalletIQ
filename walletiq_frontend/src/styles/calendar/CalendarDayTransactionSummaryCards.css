@@ -1,0 +1,53 @@
+.transaction-summary-day-top-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+  background-color: #f7f9fc;
+  border-radius: 10px;
+}
+
+.transaction-summary-day-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1 1 200px;
+  min-width: 220px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.transaction-summary-day-card:hover {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.transaction-summary-day-card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-summary-day-card-label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.transaction-summary-day-card-value {
+  font-size: 20px;
+  font-weight: bold;
+  color: #212121;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.transaction-summary-day-card-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9e9e9e;
+}

@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS walletiq;
+CREATE DATABASE walletiq;

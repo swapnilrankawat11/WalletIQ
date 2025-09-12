@@ -1,0 +1,19 @@
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.transaction-form input,
+.transaction-form select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.transaction-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

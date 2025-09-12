@@ -1,0 +1,25 @@
+.transfers-page {
+  padding: 20px;
+  background-color: #f4f6f8;
+}
+
+.transfers-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-transfer-button {
+  padding: 10px 14px;
+  background-color: #4c4cff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-transfer-button:hover {
+  background-color: #3a3aed;
+}
